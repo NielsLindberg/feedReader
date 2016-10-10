@@ -59,7 +59,7 @@
 			"file": "jasmine/spec/feedreader.js",
 			"settings":
 			{
-				"buffer_size": 3990,
+				"buffer_size": 5405,
 				"line_ending": "Windows"
 			}
 		},
@@ -68,6 +68,14 @@
 			"settings":
 			{
 				"buffer_size": 2025,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 551,
 				"line_ending": "Windows"
 			}
 		},
@@ -149,16 +157,15 @@
 	[
 		"/D/Workspace/Udacity/frontend-nanodegree-feedreader",
 		"/D/Workspace/Udacity/frontend-nanodegree-feedreader/jasmine",
-		"/D/Workspace/Udacity/frontend-nanodegree-feedreader/jasmine/lib",
-		"/D/Workspace/Udacity/frontend-nanodegree-feedreader/jasmine/spec",
+		"/D/Workspace/Udacity/frontend-nanodegree-feedreader/jasmine/lib/jasmine-2.1.2",
 		"/D/Workspace/Udacity/frontend-nanodegree-feedreader/js"
 	],
 	"file_history":
 	[
+		"/D/Workspace/Udacity/mapApp/src/css/style.less",
 		"/D/Workspace/Udacity/mapApp/src/index.html",
 		"/D/Workspace/Udacity/mapApp/src/js/models/mapEntries.js",
 		"/D/Workspace/Udacity/mapApp/src/js/main.js",
-		"/D/Workspace/Udacity/mapApp/src/css/style.less",
 		"/D/Workspace/Udacity/mapApp/Gruntfile.js",
 		"/D/Workspace/Udacity/mapApp/README.md",
 		"/D/Workspace/Udacity/P5/frontend-nanodegree-arcade-game/js/engine.js",
@@ -385,7 +392,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -394,34 +401,35 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3990,
+						"buffer_size": 5405,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3151,
-								3151
+								5399,
+								5399
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 1404.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "index.html",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2025,
@@ -431,25 +439,55 @@
 						"selection":
 						[
 							[
-								1789,
-								1789
+								864,
+								864
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 396.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
@@ -461,21 +499,22 @@
 						"selection":
 						[
 							[
-								3566,
-								3566
+								2573,
+								2573
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
