@@ -99,7 +99,7 @@ $(function() {
         });
 
         it('feed is different than previous feed on load feed', function() {
-            loadFeed(1, function() {
+            loadFeed(1, function(done) {
                 newFeed = $('.feed').html();
                 expect(newFeed).toBeDefined();
                 expect(initFeed).toBeDefined();
