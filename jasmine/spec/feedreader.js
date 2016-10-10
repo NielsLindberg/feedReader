@@ -93,17 +93,18 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function() {
                 initFeed = $('.feed').html();
-                expect(initFeed).toBeDefined();
+                expect(initFeed).not.toBe('');
                 done();
             });
         });
 
-        it('feed is different than previous feed on load feed', function() {
-            loadFeed(1, function(done) {
+        it('feed is different than previous feed on load feed', function(done) {
+            loadFeed(1, function() {
                 newFeed = $('.feed').html();
-                expect(newFeed).toBeDefined();
-                expect(initFeed).toBeDefined();
+                expect(newFeed).not.toBe('');
+                expect(initFeed).not.toBe('');
                 expect(newFeed).not.toBe(initFeed);
+                done();
             });
         });
     });
